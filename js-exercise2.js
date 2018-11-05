@@ -5,7 +5,6 @@
 //The above Person class is written with ES5, now that we've learned about ES2015, convert the above code class to an ES2015 version using the new class syntax
 
 class Person {
-
     constructor(first,last){
       this.first = first
       this.last = last
@@ -20,6 +19,6 @@ class Person {
   
   }
   
-  bob = new Person('Thomas','Ochman')
+  let fullName = new Person('Thomas','Ochman')
   
-  bob.setName()
+  fullName.setName()
